@@ -1,0 +1,48 @@
+body{
+    background-color: #f6277a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img{
+    border-radius: 50%;
+    width: 70px;
+    height:70px;
+}
+.container h1{
+    font-size: 20px;
+}
+body .container{
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+    margin: 0;
+    width: 300px;
+    box-shadow: 20px 40px 10px 5px rgba(34, 60, 80, 0.2);
+}
+.container h3{
+    color: black;
+}
+.container p{
+    opacity: 50%;
+    font-size: 13px;
+}
+.container .people{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+button {
+    background: linear-gradient(0deg, rgb(235, 7, 106) 0%, rgb(237, 166, 196) 100%);
+    border: none;
+    height: 50px;
+    border-radius: 3px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-left: 28px;
+}
